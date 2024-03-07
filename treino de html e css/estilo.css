@@ -1,0 +1,232 @@
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  
+  }
+  
+  html {
+    font-family: 'Josefin Sans', sans-serif;
+  }
+  
+  body {
+    background-color: rgb(245, 241, 244);
+  }
+  header {
+    min-height: 10vh;
+    background-color: #d834a7;
+    padding: 1.3rem 0rem;
+    position: fixed;
+    width: 100%;
+    margin: auto;
+    z-index: 99;
+  }
+  
+  nav{
+    display: flex;
+    flex-direction: row;
+  }
+  
+  #navImg {
+    justify-content: flex-start;
+    flex-grow: 3;
+    padding-left: 50px;
+  }
+  
+  #navImg img {
+    height: 70px;
+    color: white;
+  }
+   nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  li {
+    padding-right: 60px;
+    list-style-type: none;  
+  }
+  
+  nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 2rem;
+    text-transform: uppercase;
+  }
+  
+  section {
+    min-height: 100vh;
+    background-color: red;
+    background: url('https://img.elo7.com.br/product/zoom/4AF2C37/painel-1-50x1m-barbie-filme-2023-barbie.jpg') no-repeat center 115px fixed;
+    background-size: cover;
+  }
+  
+  .container {
+    padding-top: 250px;
+    width: 100%;
+    display: flex;
+    flex-direction: row; 
+    justify-content: flex-end;
+    color: white;
+  }
+  
+  .info {
+    width:20%;
+  }
+  .info h1 {
+    text-align: center;
+    font-size: 4em;
+    margin-bottom: 20px;
+  }
+  
+  .info p {
+    line-height: 2rem;
+  }
+  
+  blockquote {
+      font-family: Georgia, serif;
+      position: relative;
+      margin: 0.5em;
+      padding: 0.5em 2em 0.5em 3em;
+  }
+  
+  blockquote:before {
+      font-family: Georgia, serif;
+      position: absolute;
+      font-size: 4em;
+      line-height: 1;
+      top: 0;
+      left: 0;
+      content: "\201C";
+  }
+  blockquote:after {
+      font-family: Georgia, serif;
+      position: absolute;
+      float:right;
+      font-size:4em;
+      line-height: 1;
+      right:0;
+      bottom:-0.5em;
+      content: "\201D";
+  }
+  
+  
+  
+  
+  #bio {
+    background: url('https://rollingstone.uol.com.br/media/uploads/2023/07/barbie-filme-filmes-que-inspiraram-greta-gerwig-diretora-foto-reproducao-warner.jpg')no-repeat center center fixed;
+    background-size: cover;
+    
+  }
+  
+  .container-bio {
+    padding-top: 550px;
+    width: 100%;
+    display: flex;
+    flex-direction: row; 
+    justify-content: flex-end;
+    color: white;
+    padding-right: 30px;
+  }
+  
+  .container-bio .info {
+    border-radius: 25px;
+    padding: 12px;
+    background-color: rgba(0, 0, 0, 0.2); 
+    -webkit-backdrop-filter: blur(8px); 
+    backdrop-filter: blur(8px);
+  }
+  
+  footer {
+    height: 100px;
+    background-color: #1b1b1b;
+    text-align: center;
+    color: white;
+  }
+  
+  footer h3 {
+    padding-top: 50px;
+  }
+  
+  footer h3 a {
+      text-decoration: none;
+      color: white;
+  }
+
+  .barbie{color:white(0, 0, 0)
+    ;}
+
+    .pictures{
+        list-style-type: none;
+        width: 10px;
+        display: flex;
+      }
+
+      .imagem{
+
+        width: 350px;
+      }
+
+      .imagem2{
+
+        width: 450px;
+      }
+
+      .card{
+        
+        display: block;
+        position: relative;
+        width: 33.3333%;
+        box-shadow: 0 2px 5px 5px rgba(0,0,0,0.1);
+        border-radius: 0.6rem;
+        background-color: #fff;
+        .card-overlay{
+          position: relative;
+          border-radius: inherit;
+          img{
+            width: 100%;
+            height: auto;
+            border-radius: inherit;
+            border-bottom-right-radius: unset;
+            border-bottom-left-radius: unset;
+          }
+          .card-status{
+            position: absolute;
+            bottom: 1rem;
+            left: 1rem;
+            background-color: #283593;
+            padding:0.4rem;
+            font-size:0.8rem;
+            color:#fafafa;
+            border-radius: 2px;
+            font-weight: bold;
+          }
+        }
+        .card-body{
+          padding:0.6rem 1rem 0.6rem;
+          .card-subtitle{
+            margin-top: 0.5rem;
+            margin-bottom: 0.5rem;
+            font-size: 0.8rem;
+            color:#9e9e9e;
+          }
+          .card-title{
+            font-size: 1.6rem;
+            font-weight: 600;
+            color: #212121;
+          }
+          .card-content{
+            color:#2e2e2e;
+          }
+        }
+        .card-footer{
+          padding:0.8rem 1rem 0.8rem;
+          font-weight: bold;
+          font-size: 0.9rem;
+          color:#757575;
+          border-top: 1px #ddd solid;
+        }}
+
+    
