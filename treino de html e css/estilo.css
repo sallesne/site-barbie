@@ -230,3 +230,65 @@
         }}
 
     
+
+       
+        
+        .modal--container { 
+          display: flex;
+          height: 100%;
+          width: 100%;
+          align-items: center;
+          justify-content: center;
+        }
+        
+        .modal--main {
+          width: 62.5%;
+          height: 60%;
+          overflow: hidden;
+          border-radius: 15px;
+          border-top: 15px solid hsl(220,50%, 70%);
+          border-bottom: 5px solid hsl(220,40%, 80%);
+          background-color: #FFF;
+          box-shadow: 0 5px 12px 0 hsla(0,0%,0%,0.2);
+        }
+        .modal--header {
+          height: 10%;
+          width: 100%;
+          transform: translateY(-15px);
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+        .modal--title {
+          text-align: center;
+          text-transform: uppercase;
+          font-weight: 700;
+          font-size: 2rem;
+        }
+        .modal--close {
+          position: relative;
+          float: right;
+          margin: 15px;
+          color: #777;
+          cursor: pointer;
+        }
+        .modal--body {  
+          padding: 0 5%;
+          width: 100%;
+          min-height: 70%;
+          display: grid;
+          grid-auto-flow: column;
+          grid-template-columns: 2fr 1fr;
+          grid-column-gap: 2%;
+          justify-items: center;
+          align-items: center;
+        }
+        .modal--body--text {
+          font-weight: 400;
+          font-size: 1.1rem;
+          text-align: justify;
+        }
+        .modal--body--img {
+          width: 100%;
+          height: auto;
+        }
