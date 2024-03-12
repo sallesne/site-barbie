@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Formulário Escolar</title>
+<link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+<body>
+
+<h2>Formulário Aluno</h2>
+<div class="">
+<form action="#" method="post" id="form-pedido">
+    <label for="nome">Nome:</label><br>
+    <input type="text" id="nome" name="nome" required><br>
+    
+    <label for="date">data do dia</label><br>
+    <input id="date" type="date" /><br>
+
+
+    <label for="endereco">Endereço:</label><br>
+    <input type="text" id="endereco" name="endereco" required><br>
+    
+    <label for="telefone">Telefone:</label><br>
+    <input type="tel" id="telefone" name="telefone" pattern="[0-9]{10}" required><br>
+    
+    <label for="genero">Genero:</label><br>
+    <select id="genero" name="genero" required>
+        <option value="">Selecione seu genero</option>
+        <option value="Pequena">Masculino</option>
+        <option value="Média">Feminino</option>
+        <option value="Grande">Outro</option>
+    </select><br>
+    
+    <label for="sabor">Email:</label><br>
+    <input type="text" id="sabor" name="sabor" required><br>
+
+    <label for="escola">Nome da Escola:</label><br>
+    <input type="text" id="escola" name="escola" required><br>
+    
+    <label for="serie">Sua serie:</label><br>
+    <input type="text" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*?)\..*/g, '$1');" /><br>
+    
+    <label for="escola">Nome do Responsavel:</label><br>
+    <input type="text" id="Respolsavel" name="Respolsavel" required><br>
+
+    <label for="telefone do responsavel">Telefone do Responsavel:</label><br>
+    <input type="text" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*?)\..*/g, '$1');" /><br>
+
+    <label for="CPF">CPF:</label><br>
+    <input type="text" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*?)\..*/g, '$1');" /><br>
+    
+
+    <label for="RG">RG:</label><br>
+    <input type="text" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*?)\..*/g, '$1');" /><br>
+<br><br>
+    <input type="submit" value="Enviar Formulario">
+</form>
+</div>
+<script src="validacao_formulario.js"></script>
+
+</body>
+</html>
